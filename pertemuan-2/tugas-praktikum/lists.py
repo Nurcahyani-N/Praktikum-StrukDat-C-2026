@@ -1,7 +1,7 @@
 #PYTHONLIST
 #untuk menyimpan beberapa item di satu variable dgn berbagai jenis tipe data 
 thislist = ["apple", "banana", "cherry"]
-print(thislist)
+print(thislist) 
 
 thislist = ["apple", "banana", "cherry"]
 print(len(thislist)) #len digunakan untuk melihat ada berapa item

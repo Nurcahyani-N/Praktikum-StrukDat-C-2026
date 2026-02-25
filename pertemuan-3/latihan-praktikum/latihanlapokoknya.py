@@ -1,4 +1,4 @@
-class Komik:
+class ReviewKomik:
     def __init__(self, judul, asal, genre, rate):
         self.judul = judul
         self.asal = asal
@@ -12,9 +12,9 @@ class Komik:
         self.rate = rate_baru
         print(f'Rate terbaru dari komik {self.judul} adalah {rate_baru}')
 
-komikSatu = Komik ('Solo Leveling', 'Korea', 'Action', '9.0')
-komikDua = Komik ('Frieren', 'Jepang', 'Fantasi', '9.35')
-komikTiga = Komik ('Omniscient Reader Viewpoint', 'Korea', 'Action', '9.1')
+komikSatu = ReviewKomik ('Solo Leveling', 'Korea', 'Action', '9.0')
+komikDua = ReviewKomik ('Frieren Beyonds End Journey', 'Jepang', 'Fantasi', '9.35')
+komikTiga = ReviewKomik ('Omniscient Reader Viewpoint', 'Korea', 'Action', '9.1')
 
 komikSatu.ganti_rate (8.9)
 komikSatu.review_reader()
