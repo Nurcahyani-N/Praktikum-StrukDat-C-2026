@@ -112,6 +112,8 @@ fruits = ("apple", "banana", "cherry")
 mytuple = fruits * 2 #mengalikan
 print(mytuple)
 
+
+
 """
 Method	  Description
 count()	  Returns the number of times a specified value occurs in a tuple
